@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    font-family: "Roboto";
+    color: #fff;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgb(120, 122, 228);
+}
+header {
+    text-align: center;
+}
+
+header img {
+    height: 100px;
+}
+
+main {
+    /* height: 70vh; */
+   /* border: 1px blue solid; */
+   /* background-color: aquamarine; */
+}
+
+section {
+    margin: 2rem 0;
+}
+#bio {
+    display: flex;
+}
+
+#name-date{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+
+#bio-choose {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: .5rem;
+}
+
+#choose-list {
+    padding: 1rem;    
+    background-color: blue;
+    font-weight: 100;
+}
+
+#choose-list h4 {
+    margin-bottom: 1rem;
+}
+
+#tech {
+    display: flex;
+    justify-content: space-between;
+}
+
+figure img{
+    height: 10rem;
+}
+
+figure{
+    width: 10rem;
+    text-align: center;
+    font-size: small;
+}
+
+figcaption {
+ background-color: black;
+ padding: .2rem;
+ opacity: .75;
+ position: relative;
+ bottom: 1rem;
+}
+
+#interest {
+    background-color: #20809b;
+    height: 300px;
+}
+
+#interest h2 {
+    margin-bottom: 1rem;
+}
+.greyBox {
+    background-color: blue;
+    font-weight: 100;
+    padding: 1rem;
+}
+
+.greyBox p {
+    margin-top: 1rem;
+}
+
+h2, h4 {
+    color: rgb(240, 231, 231);
+}
+
+h1 {
+    background-color: rgb(89, 72, 247);
+}
+.variableSizeText {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+img {
+    width: 10rem;
+    display: block;
+    margin: 0 auto;
+}
+
+#copyright {
+    background-color: rgb(5, 5, 5);
+}
+
+
+
+.bodyText {
+    background-color: #333;
+    color: #fff;
+}
+

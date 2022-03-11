@@ -1,0 +1,47 @@
+:root {
+    --main-blue: rgb(46, 11, 172);
+    --main-white: rgb(252, 252, 252);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--main-blue);
+}
+
+.navList a {
+    display: block;
+    padding: 1.5rem;
+}
+
+.navList a:hover{
+    background-color: rgb(46, 224, 224);
+}
+
+#welcome-section {
+    background-color: rgb(27, 126, 129);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+figure {
+    margin: 2rem;
+}
